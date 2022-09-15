@@ -1,0 +1,30 @@
+{
+  "name": "cli-tornado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bignumber.js": "^9.0.0",
+    "circom": "0.0.35",
+    "circomlib": "git+https://git@development.tornadocash.community/tornadocash/circomlib#master",
+    "commander": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "fixed-merkle-tree": "git+https://git@development.tornadocash.community/tornadocash/fixed-merkle-tree#master",
+    "gas-price-oracle": "^0.4.4",
+    "private-ip": "^2.3.3",
+    "snarkjs": "git+https://git@development.tornadocash.community/tornadocash/snarkjs#master",
+    "socks-proxy-agent": "^6.1.1",
+    "web3": "^1.6.1",
+    "web3-providers-http": "file:local_modules/web3-providers-http",
+    "websnark": "git+https://git@development.tornadocash.community/tornadocash/websnark#master"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  }
+}
